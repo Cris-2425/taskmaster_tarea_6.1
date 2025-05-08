@@ -103,12 +103,13 @@ A continuación, una vista previa de la interfaz de usuario:
 | Versión | Fecha       | Descripción              |
 |---------|-------------|--------------------------|
 | 1.0.0   | 08/05/2025  | Lanzamiento inicial      |
-
+|---------|-------------|--------------------------|
+| 1.0.1   | 08/05/2025  | Arreglo url git          |
 
 ## Créditos
 
 Desarrollado por [Cristian Rodríguez]
-(https://github.com/Cris-2425/task-manager).
+(https://github.com/Cris-2425/taskmaster_tarea_6.1).
 
 ## Licencia
 
