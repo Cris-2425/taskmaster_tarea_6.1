@@ -21,7 +21,7 @@ Para instalar y ejecutar la aplicación, sigue los siguientes pasos:
 
 ```bash
 # Clonar el repositorio
-git clone https://github.com/danielmartinan/taskmaster.git
+git clone https://github.com/usuario/taskmaster.git
 cd taskmaster
 
 # Instalar dependencias
@@ -86,8 +86,6 @@ classDiagram
 
 A continuación, una vista previa de la interfaz de usuario:
 
-*(Reemplaza estos ejemplos con capturas reales en `docs/`.)*
-
 1. Haz clic en el botón **Nueva Tarea**.  
 2. Completa el formulario con los datos de la tarea:  
    1. **Título**: Nombre de la tarea.  
@@ -105,6 +103,8 @@ A continuación, una vista previa de la interfaz de usuario:
 | 1.0.0   | 08/05/2025  | Lanzamiento inicial      |
 |---------|-------------|--------------------------|
 | 1.0.1   | 08/05/2025  | Arreglo url git          |
+|---------|-------------|--------------------------|
+| 1.0.1   | 08/05/2025  | Arreglos menores         |
 
 ## Créditos
 
