@@ -102,15 +102,17 @@ export default function App() {
   const total = tasks.length; const doneCount = tasks.filter(x=>x.status==='ter').length;
   const efficiency = total>0?Math.round((doneCount/total)*100):0;
 
+  	  // En que cada caso he estado usando utilidades de Tailwind CSS. Ejemplo:
+	  // flex-1 = flex-grow: 1 (Ocupar espacio disponible).
+	  // p-6 = padding: 1.5 rem.
+	  // space-y-6 = 1.5 rem.
+    
   return (
     <div className="min-h-screen flex bg-gradient-to-br from-gray-900 to-purple-900 text-gray-100">
       <nav className="w-16 bg-gray-800 flex flex-col items-center py-6 space-y-6">
         {[Menu,Grid,Calendar,Bell,Settings].map((Icon,i)=><Icon key={i} size={20} className="opacity-50 hover:opacity-100 cursor-pointer"/>)}
       </nav>
-	  // En que cada caso he estado usando utilidades de Tailwind CSS. Ejemplo:
-	  // flex-1 = flex-grow: 1 (Ocupar espacio disponible).
-	  // p-6 = padding: 1.5 rem.
-	  // space-y-6 = 1.5 rem.
+
       <main className="flex-1 p-6 space-y-6 overflow-auto">
         <header className="flex justify-between items-center">
           <h1 className="text-2xl font-bold">Tareas 1º DAM</h1>
