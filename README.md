@@ -104,7 +104,9 @@ A continuación, una vista previa de la interfaz de usuario:
 |---------|-------------|--------------------------|
 | 1.0.1   | 08/05/2025  | Arreglo url git          |
 |---------|-------------|--------------------------|
-| 1.0.1   | 08/05/2025  | Arreglos menores         |
+| 1.0.2   | 08/05/2025  | Arreglos menores         |
+|---------|-------------|--------------------------|
+| 1.0.3   | 08/05/2025  | Arreglos menores         |
 
 ## Créditos
 
